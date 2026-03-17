@@ -12,4 +12,10 @@ public class TestController {
         return "Spring Boot Branch Testing Project";
     }
 
+    @GetMapping("/tommy")
+    public String Tommy()
+    {
+        return "this is tommy";
+    }
+
 }
